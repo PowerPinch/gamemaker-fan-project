@@ -1,5 +1,5 @@
 distance = 150;
-move_speed = 500000;
+move_speed = 1000;
 reverse = false;
 xorig = x;
 yorig = y;

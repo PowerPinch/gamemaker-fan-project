@@ -1,4 +1,4 @@
-global.micro = 1000000000;
+global.micro = 1000000;
 global.kb_up = "W";
 global.kb_down = "S";
 global.kb_left = "A";
