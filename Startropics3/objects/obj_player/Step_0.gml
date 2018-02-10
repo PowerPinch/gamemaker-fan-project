@@ -35,7 +35,7 @@ if(!attack_flag) {
 		y += move_speed * delta_time/global.micro
 	}
 	
-	if(keyboard_key_press(ord(global.kb_shoot)) || gamepad_button_check_pressed(0, gp_face3)) {
+	if(keyboard_key_press(ord(vk_enter)) || gamepad_button_check_pressed(0, gp_face3) || mouse_check_button_pressed(mb_left)) {
 		attack_flag = true;
 		switch(move_anim) {
 			case 0:
@@ -71,5 +71,19 @@ if(!attack_flag) {
 		} else {
 			instance_create_layer(x, y, "layer_weapon_lower", obj_star);		
 		}	
+	}
+}
+if(!jump_flag && (keyboard_key_press(ord(global.kb_jump)) || gamepad_button_check_pressed(0, gp_face1))) {
+	jump_flag = true;
+	jump_time = 0;
+	move_speed = 100;
+	elevation++;
+} else if(jump_flag) {
+	jump_time += delta_time / global.micro;
+	if(jump_time > 0.5) {
+		jump_flag = false;
+		move_speed = 200
+		//TODO: add ground check to decide whether or not to change elevation
+		elevation--;
 	}
 }

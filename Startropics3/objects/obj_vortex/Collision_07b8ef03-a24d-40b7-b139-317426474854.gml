@@ -1,5 +1,7 @@
-health--; 
-if(health < 0) {
-// death script
+if(!other.jump_flag) {
+	health--; 
+	if(health < 0) {
+	// death script
+	}
+	instance_destroy();
 }
-instance_destroy();

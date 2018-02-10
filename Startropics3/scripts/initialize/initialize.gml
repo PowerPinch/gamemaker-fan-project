@@ -4,6 +4,7 @@ global.kb_down = "S";
 global.kb_left = "A";
 global.kb_right = "D";
 global.kb_shoot = vk_enter;
+global.kb_jump = vk_space;
 global.framerate = 9999;
 health = 6;
 lives = 3;
