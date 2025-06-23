@@ -1,0 +1,5 @@
+function skull_shot() {
+
+
+
+}

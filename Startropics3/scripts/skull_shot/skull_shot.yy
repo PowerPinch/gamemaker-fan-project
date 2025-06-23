@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"skull_shot",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"skull_shot",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
