@@ -17,3 +17,7 @@ global.ctrl_jump = gp_face3;
 global.framerate = 9999;
 health = 6;
 lives = 3;
+
+// Enable gamepad support
+gamepad_set_axis_deadzone(0, 0.1);
+gamepad_set_button_threshold(0, 0.5);
