@@ -1,8 +1,8 @@
 global.micro = 1000000;
-global.kb_up = "W";
-global.kb_down = "S";
-global.kb_left = "A";
-global.kb_right = "D";
+global.kb_up = ord("W");
+global.kb_down = ord("S");
+global.kb_left = ord("A");
+global.kb_right = ord("D");
 global.kb_shoot = vk_enter;
 global.kb_jump = vk_space;
 
