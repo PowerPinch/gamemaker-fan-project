@@ -8,6 +8,7 @@ function initialize() {
 	global.kb_jump = vk_space;
 
 	// Controller settings - default mappings
+	global.gp = array_create(8);
 	global.ctrl_up = gp_padu;
 	global.ctrl_down = gp_padd;
 	global.ctrl_left = gp_padl;

@@ -51,6 +51,7 @@
     {"id":{"name":"player_death","path":"scripts/player_death/player_death.yy",},},
     {"id":{"name":"skull_shot","path":"scripts/skull_shot/skull_shot.yy",},},
     {"id":{"name":"spr_empty","path":"sprites/spr_empty/spr_empty.yy",},},
+    {"id":{"name":"spr_enemy","path":"sprites/spr_enemy/spr_enemy.yy",},},
     {"id":{"name":"spr_player_shadow","path":"sprites/spr_player_shadow/spr_player_shadow.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"spr_skull","path":"sprites/spr_skull/spr_skull.yy",},},

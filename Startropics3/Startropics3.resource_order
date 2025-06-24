@@ -29,6 +29,7 @@
     {"name":"player_death","order":3,"path":"scripts/player_death/player_death.yy",},
     {"name":"skull_shot","order":1,"path":"scripts/skull_shot/skull_shot.yy",},
     {"name":"spr_empty","order":5,"path":"sprites/spr_empty/spr_empty.yy",},
+    {"name":"spr_enemy","order":9,"path":"sprites/spr_enemy/spr_enemy.yy",},
     {"name":"spr_player_shadow","order":1,"path":"sprites/spr_player_shadow/spr_player_shadow.yy",},
     {"name":"spr_skull","order":4,"path":"sprites/spr_skull/spr_skull.yy",},
     {"name":"spr_star","order":2,"path":"sprites/spr_star/spr_star.yy",},
