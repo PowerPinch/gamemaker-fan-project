@@ -45,6 +45,7 @@
     {"id":{"name":"obj_vortex","path":"objects/obj_vortex/obj_vortex.yy",},},
     {"id":{"name":"object3","path":"objects/object3/object3.yy",},},
     {"id":{"name":"room0","path":"rooms/room0/room0.yy",},},
+    {"id":{"name":"get_gamepad_index","path":"scripts/get_gamepad_index/get_gamepad_index.yy",},},
     {"id":{"name":"initialize","path":"scripts/initialize/initialize.yy",},},
     {"id":{"name":"skull_shot","path":"scripts/skull_shot/skull_shot.yy",},},
     {"id":{"name":"spr_empty","path":"sprites/spr_empty/spr_empty.yy",},},

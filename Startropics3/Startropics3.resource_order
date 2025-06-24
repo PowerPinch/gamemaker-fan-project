@@ -24,6 +24,7 @@
     {"name":"obj_vortex_emitter","order":8,"path":"objects/obj_vortex_emitter/obj_vortex_emitter.yy",},
     {"name":"obj_vortex","order":7,"path":"objects/obj_vortex/obj_vortex.yy",},
     {"name":"object3","order":3,"path":"objects/object3/object3.yy",},
+    {"name":"get_gamepad_index","order":2,"path":"scripts/get_gamepad_index/get_gamepad_index.yy",},
     {"name":"skull_shot","order":1,"path":"scripts/skull_shot/skull_shot.yy",},
     {"name":"spr_empty","order":5,"path":"sprites/spr_empty/spr_empty.yy",},
     {"name":"spr_player_shadow","order":1,"path":"sprites/spr_player_shadow/spr_player_shadow.yy",},

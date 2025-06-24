@@ -1,13 +1,13 @@
 {
-  "$GMScript":"",
-  "compatibilityConfigs":[],
+  "$GMScript":"v1",
+  "%Name":"get_gamepad_index",
   "isCompatibility":false,
-  "isOverridden":false,
+  "isDnD":false,
+  "name":"get_gamepad_index",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",
   },
-  "parentResourceId":null,
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
-} 
+}

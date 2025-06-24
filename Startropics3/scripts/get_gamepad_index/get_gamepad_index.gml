@@ -7,4 +7,4 @@ function get_gamepad_index() {
     }
     // Fallback to 0 if no gamepad is connected
     return 0;
-} 
+}
