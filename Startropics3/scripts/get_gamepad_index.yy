@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "compatibilityConfigs":[],
+  "isCompatibility":false,
+  "isOverridden":false,
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "parentResourceId":null,
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+} 
