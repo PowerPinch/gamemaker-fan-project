@@ -1,7 +1,7 @@
 if(!other.jump_flag) {
-	health--; 
-	if(health < 0) {
-	// death script
+	health-=projectile_damage; 
+	other.invuln_frames = 2;
+	if(health <= 0) {
+		player_death();
 	}
-	instance_destroy();
 }

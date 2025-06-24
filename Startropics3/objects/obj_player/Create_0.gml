@@ -4,6 +4,7 @@ elevation = 0;
 move_flag = false;
 attack_flag = false;
 jump_flag = false;
+invuln_frames = 0; 
 
 //Tile collision info
 l = layer_get_id("tile_collision");

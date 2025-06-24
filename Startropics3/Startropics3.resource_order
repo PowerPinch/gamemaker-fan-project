@@ -17,6 +17,7 @@
   "ResourceOrderSettings":[
     {"name":"obj_async","order":9,"path":"objects/obj_async/obj_async.yy",},
     {"name":"obj_boss","order":4,"path":"objects/obj_boss/obj_boss.yy",},
+    {"name":"obj_enemy_parent","order":10,"path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},
     {"name":"obj_init","order":2,"path":"objects/obj_init/obj_init.yy",},
     {"name":"obj_skull_emitter","order":6,"path":"objects/obj_skull_emitter/obj_skull_emitter.yy",},
     {"name":"obj_skull","order":5,"path":"objects/obj_skull/obj_skull.yy",},
@@ -25,6 +26,7 @@
     {"name":"obj_vortex","order":7,"path":"objects/obj_vortex/obj_vortex.yy",},
     {"name":"object3","order":3,"path":"objects/object3/object3.yy",},
     {"name":"get_gamepad_index","order":2,"path":"scripts/get_gamepad_index/get_gamepad_index.yy",},
+    {"name":"player_death","order":3,"path":"scripts/player_death/player_death.yy",},
     {"name":"skull_shot","order":1,"path":"scripts/skull_shot/skull_shot.yy",},
     {"name":"spr_empty","order":5,"path":"sprites/spr_empty/spr_empty.yy",},
     {"name":"spr_player_shadow","order":1,"path":"sprites/spr_player_shadow/spr_player_shadow.yy",},

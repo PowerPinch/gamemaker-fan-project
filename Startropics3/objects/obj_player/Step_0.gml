@@ -9,7 +9,7 @@ if(!attack_flag) {
 	//		LD	5	 RD	2
 	//			DOWN 7
 	// To make diagonals +1 for up +2 for down if already moving left or right
-	if(keyboard_check(ord(global.kb_right)) || gamepad_button_check(gamepad_index, gp_padr) || (gamepad_axis_value(gamepad_index, gp_axislh) > 0.1)) {
+	if(keyboard_check(global.kb_right) || gamepad_button_check(gamepad_index, gp_padr) || (gamepad_axis_value(gamepad_index, gp_axislh) > 0.1)) {
 		move_anim = 0;
 		move_flag = true;
 		x += move_speed * delta_time/global.micro;
@@ -18,7 +18,7 @@ if(!attack_flag) {
 		if(t1 != 0 || t2 != 0) {
 			x = ((bbox_right & ~63) - 1) - sprite_bbox_right;
 		}
-	} else if(keyboard_check(ord(global.kb_left)) || gamepad_button_check(gamepad_index, gp_padl) || (gamepad_axis_value(gamepad_index, gp_axislh) < -0.1)) {
+	} else if(keyboard_check(global.kb_left) || gamepad_button_check(gamepad_index, gp_padl) || (gamepad_axis_value(gamepad_index, gp_axislh) < -0.1)) {
 		move_anim = 3;
 		move_flag = true;
 		x -= move_speed * delta_time/global.micro
@@ -29,7 +29,7 @@ if(!attack_flag) {
 		}
 	}
 
-	if(keyboard_check(ord(global.kb_up)) || gamepad_button_check(gamepad_index, gp_padu) || (gamepad_axis_value(gamepad_index, gp_axislv) < -0.1)) {
+	if(keyboard_check(global.kb_up) || gamepad_button_check(gamepad_index, gp_padu) || (gamepad_axis_value(gamepad_index, gp_axislv) < -0.1)) {
 		if(move_flag) { 
 			move_anim += 1;
 		} else {
@@ -42,7 +42,7 @@ if(!attack_flag) {
 		if(t1 != 0 || t2 != 0) {
 			y = ((bbox_top + 64) & ~63) - sprite_bbox_top;
 		}
-	} else if(keyboard_check(ord(global.kb_down)) || gamepad_button_check(gamepad_index, gp_padd) || (gamepad_axis_value(gamepad_index, gp_axislv) > 0.1)) {
+	} else if(keyboard_check(global.kb_down) || gamepad_button_check(gamepad_index, gp_padd) || (gamepad_axis_value(gamepad_index, gp_axislv) > 0.1)) {
 		if(move_flag) {
 			move_anim += 2;
 		} else {

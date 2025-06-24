@@ -36,6 +36,7 @@
   "resources":[
     {"id":{"name":"obj_async","path":"objects/obj_async/obj_async.yy",},},
     {"id":{"name":"obj_boss","path":"objects/obj_boss/obj_boss.yy",},},
+    {"id":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},},
     {"id":{"name":"obj_init","path":"objects/obj_init/obj_init.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_skull_emitter","path":"objects/obj_skull_emitter/obj_skull_emitter.yy",},},
@@ -47,6 +48,7 @@
     {"id":{"name":"room0","path":"rooms/room0/room0.yy",},},
     {"id":{"name":"get_gamepad_index","path":"scripts/get_gamepad_index/get_gamepad_index.yy",},},
     {"id":{"name":"initialize","path":"scripts/initialize/initialize.yy",},},
+    {"id":{"name":"player_death","path":"scripts/player_death/player_death.yy",},},
     {"id":{"name":"skull_shot","path":"scripts/skull_shot/skull_shot.yy",},},
     {"id":{"name":"spr_empty","path":"sprites/spr_empty/spr_empty.yy",},},
     {"id":{"name":"spr_player_shadow","path":"sprites/spr_player_shadow/spr_player_shadow.yy",},},
